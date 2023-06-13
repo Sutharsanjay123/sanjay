@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#test {
+    color: rgb(0, 0, 0);
+}
+.symbole-img{
+   justify-items: left;
+}
+
+.material-symbols-outlined {
+    overflow-y: hidden;
+}
+
+#home-page {
+    color: rgb(0, 0, 0);
+    border: 2px black;
+    padding: 1rem;
+    background-color: #ffeef1;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#options-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    margin: 0rem 1rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+}
+.option a{
+   text-decoration: none;
+}
+.menu{
+    height: 0;
+    transition: var(--transition);
+}
+
+.show-menu{
+    height: auto;
+    width: auto;
+}
+.button{
+    display: flex;
+    width: 7vw;
+    border: none;
+    background-color: white;
+    float: right;
+}
+
+#section-1 {
+    font-family: 'poppins' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: rgb(12, 11, 11);
+}
+
+#logo-group{
+   display: flex;
+   font-size: 23px;
+}
+#logo-img{
+   width: 5vw;
+}
+#section-2{
+    margin: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+ .carousal {
+     border: 2px #151213;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ 
+ #section-3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+.box-1{
+    height: 50vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    border: 3px solid black;
+ }
+
+ .box-item{
+    height: 39vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+
+ .img-box{
+    width: 27vh;
+    height: 27vh;
+    
+    border: 3px solid black;
+ }
+ .name-box{
+    font-size: 1.5rem;
+ }
+ #image-circle-1{
+    background-image: url("./OM BANGALS/images/Screenshot_20230421_023551.png");
+    background-size: cover;
+}
+#image-circle-2{
+    background-image: url("./OM BANGALS/images/Screenshot_20230421_101937.png");
+    background-size: cover;
+}
+#image-circle-3{
+    background-image: url("./OM BANGALS/images/jazmin-quaynor-FoeIOgztCXo-unsplash.jpg");
+    background-size: cover;
+}
+
+#sction-4{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1rem;
+   
+}
+.contect-box{
+    height: 52vh;
+    width: 45vw;
+    margin: 0rem 1rem;
+    padding: 1rem;
+    display: flex;
+    box-shadow: 3px 4px solid red;
+    float: left;
+    font-size: 26px;
+    border: 3px solid black;
+}
+.link{ 
+    margin-left: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+#section-5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3rem;
+}
+
+h3{
+    text-align: left;
+    font-size: 27px;
+    margin: 0rem 0rem;
+} 
+#brand-box{
+    border: 2px #151213;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#brand-img{
+    /* background-image: url("../OM BANGALS/images/Screenshot_20230422_125256.png"); */
+    width: 72vw;
+    background-size: cover;
+  }
+  .button{    
+    display: flex;
+    width: 8vw;
+    border: none;
+    background-color: white;
+    float: right;
+}
+  
